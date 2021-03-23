@@ -135,7 +135,7 @@ elif type == 0:
 		if len(cc) >= 4 or len(cc) < 1:
 		        print('\n\nInvalid Country Code..\n\t\tCountry Codes Are Generally 1-3 digits...\n')
 		        continue
-		pn = input("Enter Phone Number : +905363573909" + cc + " ")
+		pn = input("Enter Phone Number : +" + cc + " ")
 		if len(pn) <= 6:
 		        print('\n\nInvalid Phone Number..\n')
 		        continue
